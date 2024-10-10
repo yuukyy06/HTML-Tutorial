@@ -50,11 +50,11 @@ Webページに多くの画像や動画が含まれている場合、処理が�
 
 - 書き方
 
-`loading` 属性を使って簡単にLazy loadingを実装できます。
+    `loading` 属性を使って簡単にLazy loadingを実装できます。
 
-```html
-<img src="example.jpg" alt="サンプル画像" loading="lazy">
-```
+    ```html
+    <img src="example.jpg" alt="サンプル画像" loading="lazy">
+    ```
 
 ## ハンズオン問題： imgタグを使ってみよう
 
