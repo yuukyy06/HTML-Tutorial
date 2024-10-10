@@ -125,5 +125,3 @@ git add .
 git commit -m "段落の作成"
 git push origin main
 ```
-
-お疲れ様でした。次のチュートリアルに進みましょう！

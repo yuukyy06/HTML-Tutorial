@@ -102,5 +102,3 @@ git add .
 git commit -m "見出しの作成"
 git push origin main
 ```
-
-お疲れ様でした。次のチュートリアルに進みましょう！
