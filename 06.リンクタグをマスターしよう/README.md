@@ -59,7 +59,7 @@ index.htmlを編集し、**別タブ**でエンベーダーへ移動できるよ
 
 <!-- 新しいタブでエンベーダーを開くリンク -->
 <a href="https://envader.plus/" target="_blank">
-    エンベーダーでLinuxを学ぶ
+  エンベーダーでLinuxを学ぶ
 </a>
 ```
 </details>
