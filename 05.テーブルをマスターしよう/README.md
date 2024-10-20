@@ -33,21 +33,21 @@ HTMLでは、要素を要素の中に配置することがよくあります。�
 
 ```html
 <table border="1">
-	<tr>
-		<th>名前</th>
-		<th>年齢</th>
-		<th>職業</th>
-	</tr>
-	<tr>
-		<td>田中太郎</td>
-		<td>30</td>
-		<td>エンジニア</td>
-	</tr>
-	<tr>
-		<td>佐藤花子</td>
-		<td>25</td>
-		<td>デザイナー</td>
-	</tr>
+  <tr>
+    <th>名前</th>
+    <th>年齢</th>
+    <th>職業</th>
+  </tr>
+  <tr>
+    <td>田中太郎</td>
+    <td>30</td>
+    <td>エンジニア</td>
+  </tr>
+  <tr>
+    <td>佐藤花子</td>
+    <td>25</td>
+    <td>デザイナー</td>
+  </tr>
 </table>
 
 ```
@@ -71,25 +71,25 @@ HTMLでは、要素を要素の中に配置することがよくあります。�
 
 ```html
 <table border="1">
-	<thead>
-		<tr>
-			<th>名前</th>
-			<th>年齢</th>
-			<th>職業</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>田中太郎</td>
-			<td>30</td>
-			<td>エンジニア</td>
-		</tr>
-		<tr>
-			<td>佐藤花子</td>
-			<td>25</td>
-			<td>デザイナー</td>
-		</tr>
-	</tbody>
+  <thead>
+    <tr>
+      <th>名前</th>
+      <th>年齢</th>
+      <th>職業</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>田中太郎</td>
+      <td>30</td>
+      <td>エンジニア</td>
+    </tr>
+    <tr>
+      <td>佐藤花子</td>
+      <td>25</td>
+      <td>デザイナー</td>
+    </tr>
+  </tbody>
 </table>
 ```
 
@@ -111,9 +111,9 @@ scope属性には、主に `col` と `row` の2つの値があります。
 
 ```html
 <tr>
-	<th scope="col">名前</th>
-	<th scope="col">年齢</th>
-	<th scope="col">職業</th>
+  <th scope="col">名前</th>
+  <th scope="col">年齢</th>
+  <th scope="col">職業</th>
 </tr>
 ```
 
@@ -121,9 +121,9 @@ scope属性には、主に `col` と `row` の2つの値があります。
 
 ```html
 <tr>
-	<th scope="row">田中太郎</th>
-	<td>30</td>
-	<td>エンジニア</td>
+  <th scope="row">田中太郎</th>
+  <td>30</td>
+  <td>エンジニア</td>
 </tr>
 ```
 
@@ -147,11 +147,11 @@ HTMLはスペースや改行を無視するため、同じ内容でも以下の2
 ```html
 <!-- その2 -->
 <div>
-	<h3>あいさつ</h3>
-	<p>お元気ですか？</p>
-	<ul>
-		<li>今日の天気</li>
-	</ul>
+  <h3>あいさつ</h3>
+  <p>お元気ですか？</p>
+  <ul>
+    <li>今日の天気</li>
+  </ul>
 </div>
 ```
 
@@ -210,30 +210,30 @@ HTMLはスペースや改行を無視するため、同じ内容でも以下の2
 <h1>プログラミング言語の詳細表</h1>
 
 <table border="1">
-	<thead>
-		<tr>
-			<th>プログラミング言語</th>
-			<th>発表年</th>
-			<th>説明</th>
-		</tr>
-	</thead>
-<tbody>
-		<tr>
-			<td>Python</td>
-			<td>1991年</td>
-			<td>高度な汎用プログラミング言語</td>
-		</tr>
-		<tr>
-			<td>JavaScript</td>
-			<td>1995年</td>
-			<td>Web開発で広く使用される</td>
-		</tr>
-		<tr>
-			<td>Go</td>
-			<td>2009年</td>
-			<td>Googleによって開発された言語</td>
-		</tr>
-	</tbody>
+  <thead>
+    <tr>
+      <th>プログラミング言語</th>
+      <th>発表年</th>
+      <th>説明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Python</td>
+      <td>1991年</td>
+      <td>高度な汎用プログラミング言語</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>1995年</td>
+      <td>Web開発で広く使用される</td>
+    </tr>
+    <tr>
+      <td>Go</td>
+      <td>2009年</td>
+      <td>Googleによって開発された言語</td>
+    </tr>
+  </tbody>
 </table>
 ```
 </details>
