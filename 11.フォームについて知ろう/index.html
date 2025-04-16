@@ -1,23 +1,23 @@
-<form ______="/submit" method="____">
-  <label for="_________">名前:</label>
-  <input type="____" id="username" name="username" placeholder="名前を入力" required>
+<form action="/submit" method="POST>
+  <label for="name">名前:</label>
+  <input type="text" id="username" name="username" placeholder="名前を入力" required>
 
-  <label for="________">パスワード:</label>
-  <input type="________" id="password" name="password" placeholder="パスワードを入力" required>
+  <label for="password">パスワード:</label>
+  <input type="passeord" id="password" name="password" placeholder="パスワードを入力" required>
   
   <p>性別を選択:</p>
   <label>
-    <input ____="radio" name="gender" value="male" required> 男
+    <input radio="radio" name="gender" value="male" required> 男
   </label>
   <label>
-    <input ____="_____" name="gender" _____="female" _______> 女
+    <input radio="radio" name="gender" value="female" required> 女
   </label>
   <br>
   
   <label>
-    <input type="_______" name="subscribe" value="___"> ニュースレターを購読する
+    <input type="checkbox" name="subscribe" value="yes"> ニュースレターを購読する
   </label>
   
-  <input ____="______" _____="送信">
+  <input type="submit" value="送信">
 </form>
   
