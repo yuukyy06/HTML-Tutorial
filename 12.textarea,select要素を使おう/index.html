@@ -1,16 +1,16 @@
 <form action="/submit" method="POST">
   <label for="feedback">フィードバック:</label>
   <div>
-  <_______ id="feedback" name="feedback" ____="5" placeholder="フィードバックをここに入力してください"></_______>
+  <textarea id="feedback" name="feedback" ____="5" placeholder="フィードバックをここに入力してください"></textara>
   </div>
   <label for="transport">交通手段を選択:</label>
-  <______ id="transport" name="transport">
-    <______ value="car">車</______>
-    <______ value="bike">自転車</______>
-    <______ value="train">電車</______>
-    <______ value="bus">バス</______>
-    <______ value="plane">飛行機</______>
-  </______>
+  <select id="transport" name="transport">
+    <option value="car">車</option>
+    <option value="bike">自転車</option>
+    <option value="train">電車</option>
+    <option value="bus">バス</option>
+    <option value="plane">飛行機</option>
+  </select>
 
   <input type="submit" value="送信">
 </form>
